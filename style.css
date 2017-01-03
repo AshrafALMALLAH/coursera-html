@@ -1,0 +1,10 @@
+body{
+	color: black;
+	text-transform: uppercase;
+}
+.myColor {
+  color: blue !important;
+}
+#mySection {
+  color: red;
+}
