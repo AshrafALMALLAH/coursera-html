@@ -1,10 +1,262 @@
 body{
-	color: black;
-	text-transform: uppercase;
+	background-color:#eee;
+	color:#333;
+    position: relative;
+    
 }
-.myColor {
-  color: blue !important;
+a {
+	text-decoration: none;
+	color: aqua;
+	
 }
-#mySection {
-  color: red;
+
+a:hover{
+	font-size: 2em;
+	color: darkblue;
+	
+}
+img {
+	
+   max-width:100%;
+   border: 1px solid black;  
+}
+
+header{
+
+position: fixed;
+left: 0;
+top: 0;  
+width:  100%;
+margin: 0 auto;
+background-color: ghostwhite;
+z-index: 100;
+overflow: hidden;
+padding: 20px;
+border: 2px solid black;
+
+}
+
+
+header h1{
+
+font-weight: lighter;
+text-transform: uppercase;
+font-family: fantasy;
+text-align: center;
+text-shadow: 1px 1px gray;
+margin: 0 auto;
+line-height: 1;
+font-size: 40px;
+letter-spacing: 30px;
+color: cornflowerblue;
+ 
+
+}
+
+footer{
+     
+    clear: both;
+    background-color: black;
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+    color: aliceblue;
+    margin: 0 auto;
+    max-width: 100%;
+    
+    
+}
+footer p {
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+#maincontainer {
+position: relative;
+top: 80px;
+background-color: white;
+padding: 0;
+margin: 0 auto; 
+padding: 0;
+max-width: 1180px;
+box-sizing: border-box;
+  
+}
+.sectiontitle{
+   position: absolute;
+    left: 0;
+    top: 0;
+    
+    background-color: coral;
+    color: black;
+    display: block;
+    
+    border: 1px solid black;
+    padding: 2px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+section > div {
+   
+    top: 45px;
+    left: 0;
+    margin: 0 auto;
+    max-width: 98%;
+    padding-top: 25px;
+    box-sizing: border-box;
+    height: 500px;
+}
+
+section {
+    position: relative;
+    height: 400px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    
+    float: left;
+    padding: 10px;
+    
+    border: 1px solid black;
+   
+    box-sizing: border-box;
+}
+
+
+@media (min-width: 992px){
+
+
+
+
+
+#first{
+   
+    width: 33.1%; 
+    
+   
+}
+
+
+#second{
+   
+    width: 33.1%; 
+    
+
+}
+#three{
+    
+    width: 33.33%;  
+   
+   margin: 0;
+    
+}
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    
+  }
+
+#second{
+   
+    margin: 0;
+    }
+
+}
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 49.86%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+  
+
+ @media (max-width: 767px){
+   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    
+  }
+     
+    
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+      
+  }
+     header h1{
+
+
+font-size: 1.5em;
+letter-spacing: 1px;
+
+ 
+
+}
+     
 }
