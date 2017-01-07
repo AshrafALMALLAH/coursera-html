@@ -1,9 +1,13 @@
+* {
+  box-sizing: border-box !important;
+}
 body{
 	background-color:#eee;
 	color:#333;
-    position: relative;
+    
     
 }
+
 a {
 	text-decoration: none;
 	color: aqua;
@@ -11,7 +15,7 @@ a {
 }
 
 a:hover{
-	font-size: 2em;
+	font-weight: bolder;
 	color: darkblue;
 	
 }
@@ -55,87 +59,82 @@ color: cornflowerblue;
 
 footer{
      
-    clear: both;
+    clear: left;
     background-color: black;
     text-align: center;
     height: 100px;
     padding: 10px;
     color: aliceblue;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 99.9%;
     
     
 }
 footer p {
     text-align: center;
 }
-p {
+ section p {
     text-align: justify;
+    
 }
 #maincontainer {
 position: relative;
 top: 80px;
 background-color: white;
-padding: 0;
 margin: 0 auto; 
-padding: 0;
-max-width: 1180px;
-box-sizing: border-box;
+padding: 1px;
+max-width: 90%;
+
   
 }
 .sectiontitle{
    position: absolute;
     left: 0;
     top: 0;
-    
     background-color: coral;
     color: black;
-    display: block;
+    
     
     border: 1px solid black;
     padding: 2px;
-    margin: 0;
-    margin-bottom: 5px;
+    
+    margin: 0 auto;
 }
 section > div {
+   // position: absolute;
+   // top: 37px;
+   // left: 0;
+    margin: 3em 0 auto;
    
-    top: 45px;
-    left: 0;
-    margin: 0 auto;
-    max-width: 98%;
-    padding-top: 25px;
-    box-sizing: border-box;
-    height: 500px;
-}
-
-section {
-    position: relative;
-    height: 400px;
-    margin-right: 2px;
-    margin-bottom: 2px;
-    
-    float: left;
     padding: 10px;
     
-    border: 1px solid black;
+  }
+
+section {
+   position: relative;
+   height: 500px;
+
+   margin-right: 2px;
+   margin-bottom: 10px;
+   padding: 0;
+   border: 1px solid black;
+   overflow: auto;
+    background-color: tan;
    
-    box-sizing: border-box;
 }
 
 
 @media (min-width: 992px){
 
-
-
-
-
+section{
+        float: left;
+    }
 #first{
    
     width: 33.1%; 
     
    
 }
-
 
 #second{
    
@@ -151,9 +150,6 @@ section {
     
 }
 }
-
-
-
 
 @media (min-width: 768px) and (max-width: 991px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
@@ -183,7 +179,8 @@ section {
     width: 41.66%;
   }
   .col-lg-6 {
-    width: 49.86%;
+    width: 49.8%;
+      
   }
   .col-lg-7 {
     width: 58.33%;
@@ -208,6 +205,7 @@ section {
  @media (max-width: 767px){
    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
+    margin-bottom: 20px;
     
   }
      
@@ -252,7 +250,7 @@ section {
      header h1{
 
 
-font-size: 1.5em;
+font-size: .1.5em;
 letter-spacing: 1px;
 
  
